@@ -1,0 +1,436 @@
+Evaluators
+{
+
+CScimitarColDoc : Collection_Producer
+{
+[Raw Data Files]
+raw = Mastercollection_2006_04_18_173640_001.nrw
+odauraw_1 = Mastercollection_2006_04_18_173640_001_1.nor
+CoordinateSystem = Registered20060418.cam
+ses = Mastercollection_2006_04_18_173640.nse
+[OPTOTRAK System]
+MarkerType = 1
+WavelengthType = 0
+ModelType = 0
+
+
+[GENERIC_SETTINGS]
+Description = 
+
+[COLLECTION_SETTINGS]
+CollectionTime = 30.000000
+FrameFrequency = 100.000000
+CollectionDelay = 0
+
+[MARKERS_SETTINGS]
+NumberOfMarkers = 12
+
+[MARKER_SETTINGS]
+Port1 = 12
+Port2 = 0
+Port3 = 0
+Port4 = 0
+DutyCycle = 50
+MarkerFrequency = 3000.000000
+StroberVoltage = 8.000000
+PopulatedPorts = 0
+
+[Mkr_0]
+Label = Marker_1
+FOR_ID = 0
+RB_ID = 0
+FIRING_NODE = 1
+[Mkr_1]
+Label = Marker_2
+FOR_ID = 0
+RB_ID = 0
+FIRING_NODE = 2
+[Mkr_2]
+Label = Marker_3
+FOR_ID = 0
+RB_ID = 0
+FIRING_NODE = 3
+[Mkr_3]
+Label = Marker_4
+FOR_ID = 0
+RB_ID = 0
+FIRING_NODE = 4
+[Mkr_4]
+Label = Marker_5
+FOR_ID = 0
+RB_ID = 0
+FIRING_NODE = 5
+[Mkr_5]
+Label = Marker_6
+FOR_ID = 0
+RB_ID = 0
+FIRING_NODE = 6
+[Mkr_6]
+Label = Marker_7
+FOR_ID = 0
+RB_ID = 0
+FIRING_NODE = 7
+[Mkr_7]
+Label = Marker_8
+FOR_ID = 0
+RB_ID = 0
+FIRING_NODE = 8
+[Mkr_8]
+Label = Marker_9
+FOR_ID = 0
+RB_ID = 0
+FIRING_NODE = 9
+[Mkr_9]
+Label = Marker_10
+FOR_ID = 0
+RB_ID = 0
+FIRING_NODE = 10
+[Mkr_10]
+Label = Marker_11
+FOR_ID = 0
+RB_ID = 0
+FIRING_NODE = 11
+[Mkr_11]
+Label = Marker_12
+FOR_ID = 0
+RB_ID = 0
+FIRING_NODE = 12
+
+[SWITCH_SETTINGS]
+SwitchCount = 0
+
+[RIGID_SETTINGS]
+RBCount = 2
+
+[RigidBody_0]
+ID = 8
+FOR_ID = 0
+StartMarker = 0
+FilePath = HR-06148.RIG
+Label = HR-06148
+[IMARKER_SETTINGS - RB_0]
+NumberOfMarkers = 0
+
+[RigidBody_1]
+ID = 9
+FOR_ID = 0
+StartMarker = 6
+FilePath = RB-06148.RIG
+Label = RB-06148
+[IMARKER_SETTINGS - RB_1]
+NumberOfMarkers = 0
+
+
+[ODAU_SETTINGS]
+ODAUCount = 1
+
+[Odau 01]
+Label = blah
+Model = 2
+CollectionTime = 30.000000
+FrameFrequency = 1000.000000
+NumberOfChannels = 8
+DigitalModeFlag = 33
+DigitalOut = f0
+Gain = 1
+Multiplexer = 0
+bDifferential = FALSE
+AnalogOut1 = 0.000000
+AnalogOut2 = 0.000000
+ScanFrequency = 90000.000000
+
+}
+Distance : Distance2
+{
+
+}
+CentreOfPressure : COP4
+{
+Number of plates= 1
+}
+ConstantFloat : Fx
+{
+Constant= 0.0000
+}
+ConstantFloat : Fy
+{
+Constant= 0.0000
+}
+ConstantFloat : Fz
+{
+Constant= 1.0000
+}
+ConstantFloat : Mx
+{
+Constant= 0.1000
+}
+ConstantFloat : My
+{
+Constant= 0.0000
+}
+ConstantFloat : Mz
+{
+Constant= 0.0000
+}
+ForcePlate6 : 6-ForcePlate10
+{
+Amp. Gain= 1000
+Amp.Exc.Voltage [V]= 180.0000
+Calib. Matrix [VX/uV]= 1.0000	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	1.0000	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	1.0000	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	0.1000	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	0.1000	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	0.1000	
+Centre Offset [mm]= 100.0000	-150.0000	0.0000	
+Corner Coord. [mm]= 100.0000	150.0000	0.0000	-100.0000	150.0000	0.0000	-100.0000	-150.0000	0.0000	
+}
+Angle : Angle11
+{
+Angle Type= 0
+Units= 0
+}
+Angle : Angle12
+{
+Angle Type= 0
+Units= 0
+}
+Angle : Angle13
+{
+Angle Type= 0
+Units= 0
+}
+Angle : Angle14
+{
+Angle Type= 0
+Units= 0
+}
+Angle : Angle15
+{
+Angle Type= 0
+Units= 0
+}
+Angle : Angle16
+{
+Angle Type= 0
+Units= 0
+}
+InvTransform : c2inverse
+{
+
+}
+Transform : Transform19
+{
+Number of 3D inputs= 0
+Number of 6D inputs= 1
+}
+Constant6D : c2toc3
+{
+Angle Units= 0
+Rx= 180.0000
+Ry= 0.0000
+Rz= -90.0000
+x= 0.0000
+y= 0.0000
+z= 0.0000
+}
+InvTransform : InvTransform23
+{
+
+}
+CViewCollector : CTextView
+{
+ShowTypes = 79
+Units = 0
+Precision = 3
+RotationType = 0
+
+}
+CViewCollector : CSpatialView
+{
+ShowTypes = 254
+ViewType = 1
+MarkerType = 3
+ShowToolbar = 1
+FrameRef = 3
+
+}
+
+}
+
+Connections
+{
+
+Connection : 61
+{
+From Collection_Producer.Marker_1
+To Angle11.Head1
+}
+Connection : 62
+{
+From Collection_Producer.Marker_7
+To Angle11.Tail1
+}
+Connection : 63
+{
+From Collection_Producer.Marker_2
+To Angle11.Head2
+}
+Connection : 64
+{
+From Collection_Producer.Marker_12
+To Angle11.Tail2
+}
+Connection : 65
+{
+From Collection_Producer.Marker_1
+To Angle12.Head1
+}
+Connection : 66
+{
+From Collection_Producer.Marker_12
+To Angle12.Tail1
+}
+Connection : 67
+{
+From Collection_Producer.Marker_2
+To Angle12.Head2
+}
+Connection : 68
+{
+From Collection_Producer.Marker_11
+To Angle12.Tail2
+}
+Connection : 69
+{
+From Collection_Producer.Marker_1
+To Angle13.Head1
+}
+Connection : 70
+{
+From Collection_Producer.Marker_8
+To Angle13.Tail1
+}
+Connection : 71
+{
+From Collection_Producer.Marker_4
+To Angle13.Head2
+}
+Connection : 72
+{
+From Collection_Producer.Marker_7
+To Angle13.Tail2
+}
+Connection : 73
+{
+From Collection_Producer.Marker_4
+To Angle14.Head1
+}
+Connection : 74
+{
+From Collection_Producer.Marker_12
+To Angle14.Tail1
+}
+Connection : 75
+{
+From Collection_Producer.Marker_2
+To Angle14.Head2
+}
+Connection : 76
+{
+From Collection_Producer.Marker_10
+To Angle14.Tail2
+}
+Connection : 77
+{
+From Collection_Producer.Marker_1
+To Angle15.Head1
+}
+Connection : 78
+{
+From Collection_Producer.Marker_7
+To Angle15.Tail1
+}
+Connection : 79
+{
+From Collection_Producer.Marker_5
+To Angle15.Head2
+}
+Connection : 80
+{
+From Collection_Producer.Marker_8
+To Angle15.Tail2
+}
+Connection : 81
+{
+From Collection_Producer.Marker_5
+To Angle16.Head1
+}
+Connection : 82
+{
+From Collection_Producer.Marker_10
+To Angle16.Tail1
+}
+Connection : 83
+{
+From Collection_Producer.Marker_3
+To Angle16.Head2
+}
+Connection : 84
+{
+From Collection_Producer.Marker_12
+To Angle16.Tail2
+}
+Connection : 85
+{
+From Angle11.Angle11(Marker_1, Marker_7, Marker_2, Marker_12)
+To 6-ForcePlate10.1 Fx
+}
+Connection : 86
+{
+From Angle12.Angle12(Marker_1, Marker_12, Marker_2, Marker_11)
+To 6-ForcePlate10.2 Fy
+}
+Connection : 87
+{
+From Angle13.Angle13(Marker_1, Marker_8, Marker_4, Marker_7)
+To 6-ForcePlate10.3 Fz
+}
+Connection : 88
+{
+From Angle14.Angle14(Marker_4, Marker_12, Marker_2, Marker_10)
+To 6-ForcePlate10.4 Mx
+}
+Connection : 89
+{
+From Angle15.Angle15(Marker_1, Marker_7, Marker_5, Marker_8)
+To 6-ForcePlate10.5 My
+}
+Connection : 90
+{
+From Angle16.Angle16(Marker_5, Marker_10, Marker_3, Marker_12)
+To 6-ForcePlate10.6 Mz
+}
+Connection : 91
+{
+From 6-ForcePlate10.6-ForcePlate10(Angle11, Angle12, Angle13, Angle14, Angle15, Angle16)
+To COP4.Plate 1
+}
+Connection : 92
+{
+From Collection_Producer.HR-06148
+To c2inverse.Transformation
+}
+Connection : 99
+{
+From c2toc3.c2toc3
+To Transform19.Transformation
+}
+Connection : 100
+{
+From c2inverse.c2inverse(HR-06148)
+To Transform19.6D 1
+}
+Connection : 101
+{
+From Transform19.Transform19(c2toc3, c2inverse)
+To InvTransform23.Transformation
+}
+
+}
+

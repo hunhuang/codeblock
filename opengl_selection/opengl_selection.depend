@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1399231901 source:c:\users\loi.duc313\desktop\school\thunghi\opengl_selection\main.cpp
+	<windows.h>
+	<glut.h>
+	<stdio.h>
+
+976684972 f:\lib\glut\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1399232144 source:c:\users\loi.duc313\desktop\school\thunghi\opengl_selection\picking_hits.c
+	<windows.h>
+	<glut.h>
+	<stdio.h>
+
+1399232313 source:c:\users\loi.duc313\desktop\school\thunghi\opengl_selection\pick_depth.c
+	<windows.h>
+	<glut.h>
+	<stdio.h>
+

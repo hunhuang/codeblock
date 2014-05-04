@@ -1,0 +1,339 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+
+<html>
+
+<head>
+  <title>ARAKNES Simulator Tutorial</title>
+  <link rel='stylesheet' type='text/css' href='css/style.css'>
+</head>
+
+<body>
+
+<!-- TUTORIAL TITLE -->
+
+<h1>ARAKNES Surgical Simulator User’s Guide</h1>
+
+<img src="img/cover.png" width="640" height="512">
+
+<!-- NAVIGATION MENU -->
+
+<a name=index><h2>TABLE OF CONTENTS</h2></a>
+
+<table>
+<tr><td><a href="#preface">PREFACE</a></td></tr>
+<tr><td><a href="#about">About This Guide</a></td></tr>
+<tr><td><a href="#organization">How This Guide Is Organized</a></td></tr>
+<tr><td><a href="#connections">CONNECTING THE HARDWARE</a></td></tr>
+<tr><td><a href="#requirements">System Requirements</a></td></tr>
+<tr><td><a href="#phantomomni">Connecting The Phantom Omni To A Computer</a></td></tr>
+<tr><td><a href="#simulator">THE ARAKNES SURGICAL SIMULATOR</a></td></tr>
+<tr><td><a href="#application">Running The Application</a></td></tr>
+</table>
+
+<!-- PREFACE -->
+
+<a name=preface><h1>Preface</h1></a>
+
+<a name=about><h2>About This Guide</h2></a>
+
+The ARAKNES Surgical Simulator User’s Guide illustrates the process of launching the surgical simulation developed within ARAKNES project. 
+In particular this software application enables the users to control the movements of a bimunual robot in a virtual surgical scenario 
+based on a patient specific anatomy. 
+Users interact with the virtual scene by means of two haptic interfaces, one for each robot arm, with six degrees of freedom in order 
+to emulate the movement of the arm. The surgical simulator was built on Chai3D, a cross platform programming library for the development 
+of applications using haptic interfaces from multiple vendors, including: Phantom by Sensable (Wilmington, USA), 
+Omega and Delta by Force Dimension (Lausanne, Switzerland), Freedom 6 by MPB (Quebec, Canada), 
+and Falcon by Novint (Albuquerque, United States). The application was tested on both Microsoft Windows Vista and Apple Mac OS X 10.6.
+
+<a name=organization><h2>How This Guide Is Organized</h2></a>
+
+This guide is divided as follows:<br /><br />
+
+<table>
+<tr><td valign="top">Chapter 1: Connecting The Hardware &nbsp;</td><td>Describes how to connect two haptic devices to a laptop.<br />
+In particolar it shows how to connect two Sensable Phantom Omni devices.</td></tr>
+<tr><td valign="top">Chapter 2: The ARAKNES Surgical Simulator &nbsp;</td><td>Shows how to run the application.</td></tr>
+</table>
+
+<br /><br />
+
+<a href="#index">Back to Index.</a>
+
+<br /><br />
+
+<!-- CONNECTING THE HARDWARE -->
+
+<a name=connections><h1>Connecting The Hardware</h1></a>
+
+This chapter describes the required steps to connect two haptic devices to a laptop to enable users to run the surgical simulator.<br />
+In particolar the case of two Sensable Phantom Omni (Figure 1.1) devices is reported.<br />
+For more information on Phantom Omni, please visit <a href="http:\\www.sensable.com">www.sensable.com</a>.<br /><br />
+
+<div align=center>
+<img src="img/sensable_phantom_omni_device.png" width="648" height="484"><br />
+<strong>Figure 1.1:</strong> Sensable Phantom Omni Device.
+</div>
+
+<br /><br />
+
+<a name=requirements><h2>System Requirements</h2></a>
+
+The Phantom Omni has the following hardware and software requirements:
+
+<ul>
+<li>An Intel processor based computer;</li>
+<li>One IEEE 1394 FireWire port;</li>
+<li>Microsoft Windows 2000 or Windows XP;</li>
+<li>A hard drive with 30 MB of space;</li>
+<li>A minimum of 32 MB RAM.</li>
+</ul>
+
+<a name=phantomomni><h2>Connecting Phantom Omni to a computer</h2></a>
+
+The Phantom Omni device communicates with a computer through a FireWire port. 
+To enable this, one must install the Phantom Device Drivers to manage the communication, before connecting the device to a computer. 
+For more details on the Phantom Device Drivers, please refer to the Sensable Phantom Omni User Guide.<br /><br />
+
+Since the ARAKNES surgical simulator requires two haptic interfaces for the control of the two robot arms, 
+a FireWire adapter based on express card (Figure 1.2) may be helpful when connecting the devices to laptop, 
+which usually comes with one FireWire port.
+
+<br /><br />
+
+<div align=center>
+<img src="img/ieee_1394a_firewire_express_card.png" width="612" height="294"><br />
+<strong>Figure 1.2:</strong> Express card with 2 FireWire connections.
+</div>
+
+<br /><br />
+
+<div align=left>
+Figure 1.3 shows the connection of two FireWire cables, provided with a couple of Phantom Omni, to a laptop through an Express Card.
+</div>
+
+<br /><br />
+
+<div align=center>
+<img src="img/double_firewire_cables_connection.png" width="483" height="433"><br />
+<strong>Figure 1.3:</strong> Figure 1.3	Insertion of two FireWire cables into the Express Card.
+</div>
+
+<br /><br />
+
+<div align=left>
+The hardware set-up to launch the ARAKNES surgical simulator includes a computer and two haptic devices is depicted in Figure 1.4. 
+In this case a laptop is connected to two Phantom Omni devices.
+However the software application supports also other haptic interfaces,
+namely: Omega and Delta by Force Dimension (Lausanne, Switzerland), Freedom 6 by MPB (Quebec, Canada), and Falcon by Novint (Albuquerque, United States).
+</div>
+
+<br /><br />
+
+<div align=center>
+<img src="img/surgical_simulator_setup.png" width="638" height="313"><br />
+<strong>Figure 1.4:</strong> Figure 1.4	Hardware set-up to for the surgical simulator.
+</div>
+
+<br /><br />
+
+<h3>For Mac OS X Users &nbsp;</h3>
+
+<em>Please, note that this setup works on computer running Microsoft Windows 2000, Xp, and Vista. 
+Since Sensable has not yet officially released a driver for Intel based Mac systems, 
+one can use Sensable Phantom Omni only on former Macs based on PowerPC processors.</em>
+
+<br /><br />
+
+<div align=left>
+<a href="#index">Back to Index.</a>
+</div>
+
+<br /><br />
+
+<!-- THE ARAKNES SURGICAL SIMULATOR -->
+
+<a name=simulator><h1>The ARAKNES Surgical Simulator</h1></a>
+
+In this chapter the features of the surgical simulator are documented, 
+from launching the application to loading the surgical robot and the anatomy models. 
+These steps are illustrated for Windows Vista. The application, however, 
+was developed using a cross platform library and runs also on Mac OS X.
+
+<a name=application><h2>Running The Application</h2></a>
+
+To load the software application the user should search the folder containing the executable file called <em>araknes_sim_release.exe</em> (Figure 2.1).<br /><br />
+
+<div align=center>
+<img src="img/application_launch.png" width="498" height="269"><br />
+<strong>Figure 2.1:</strong> Launch of the application.
+</div>
+
+<br /><br />
+
+<div align=left>
+After clicking on <em>araknes_sim_release.exe</em>, the application loads itself. 
+Once loading is completed, the user is presented with the main window of the application (Figure 2.2).
+</div>
+
+<br /><br />
+
+<div align=center>
+<img src="img/simulator_mainwindow.png" width="720" height="450"><br />
+<strong>Figure 2.2:</strong> Main window of the ARAKNES surgical simulator.
+</div>
+
+<br /><br />
+
+<div align=left>
+The main window includes the following graphical items: the <em>Main Menus</em> (a window menu), 
+the <em>Head up Display</em> (reporting the shortcuts), the <em>Information and Settings Menu</em> 
+(to visualize information on the haptic interfaces and change the transparency of the abdomen, as illustrated later in this chapter), 
+and the <em>Trigger Menu</em> (to start and stop the simulation). 
+In particular <em>Main Menus</em> consists of four windows menus: <em>File</em>, <em>View</em>, <em>Tools</em> and <em>Help</em> (Figure 2.3). 
+In <em>File</em> the user can load into the virtual scene a patient specific anatomy by selecting <em>Open Anatomy File</em>. 
+In the <em>View</em> it is possibile to switch between <em>Fullscreen</em> and <em>Window Mode</em>, 
+and between <em>Render Graphics</em> and <em>Physics</em>. 
+The <em>Tools</em> menu offers the option to save and load the robot position by selecting respectively 
+<em>Save Robot Pos</em> and <em>Load Robot Pos</em>. 
+Finally, the <em>Help</em> menu is useful to get help on terms typed in the Search field and to look up the User’s Guide in HTML format.
+</div>
+
+<br /><br />
+
+<div align=center>
+<table>
+<tr>
+<td align=center><img src="img/main_menu__file.png" width="199" height="81"></td>
+<td align=center><img src="img/main_menu__view.png" width="211" height="124"></td>
+</tr>
+<tr>
+<td align=center>(a)</td>
+<td align=center>(b)</td>
+</tr>
+<tr>
+<td align=center><img src="img/main_menu__tools.png" width="249" height="123"></td>
+<td align=center><img src="img/main_menu__help.png" width="499" height="95"></td>
+</tr>
+<tr>
+<td align=center>(c)</td>
+<td align=center>(d)</td>
+</tr>
+</table>
+<br />
+<strong>Figure 2.3:</strong> Figure 2.3	Main Menus: File (a), View (b), Tools (c) and Help (d).
+</div>
+
+<br /><br />
+
+Moreover, the user can load the ARAKNES robot by clicking in the mouse middle button (Figure 2.4).
+
+<br /><br />
+
+<div align=center>
+<img src="img/robot_loading.png" width="720" height="450"><br />
+<strong>Figure 2.4:</strong> Loading the ARAKNES bimanual robot into the surgical simulator.
+</div>
+
+<br /><br />
+
+<div align=left>
+By selecting File>Open Anatomy File (Figure 2.5), the user has the possibility to choose the patient specific anatomy to be loaded. 
+The result is shown in Figure 2.6. The placement of the access port on the abdomen can be changed by clicking the mouse middle button.
+</div>
+
+<br /><br />
+
+<div align=center>
+<img src="img/anatomy_selection.png" width="720" height="450"><br />
+<strong>Figure 2.5:</strong> Selecting the patient specific anatomy to load.
+</div>
+
+<br /><br />
+
+<div align=center>
+<img src="img/patient_specific_anatomy.png" width="720" height="450"><br />
+<strong>Figure 2.6:</strong> Loading a patient specific anatomy.
+</div>
+
+<br /><br />
+
+<div align=left>
+Using the Abdomen Transparency slider control the abdomen opacity can be set from 0% (full opaque) to 100% (full transparent, as shown in Figure 2.7).
+</div>
+
+<br /><br />
+
+<div align=center>
+<img src="img/abdomen_transparency.png" width="479" height="302"><br />
+<strong>Figure 2.7:</strong> Changing the transparency of the abdomen.
+</div>
+
+<br /><br />
+
+<div align=left>
+When the anatomy model is loaded, a new menu appears on the right part of the main window: 
+it is called Anatomy Info (Figure 2.7 and Figure 2.8). 
+This takes up the topmost area of the main window and in this case 
+the <em>Information and Settings</em> menu is moved downwards compared with the case in which the ARAKNES surgical simulator is loaded (Figure 2.2). 
+The <em>Anatomy Info</em> allows to show and hide each of the meshes representing the vrtual anatomy by turning on or off the radio button control, 
+and provides the following information: the name of the organ, the type of the organ 
+(static or dynamic, depending on the deformable nature of the organ or not), 
+and the number of elements (number of skeleton nodes in the skeleton dynamic mode, 
+number of the mass points in the point mass dynamic model, and the number of the vertices of the mesh for static organs).
+</div>
+
+<br /><br />
+
+<div align=center>
+<img src="img/anatomy_info.png" width="321" height="510"><br />
+<strong>Figure 2.8:</strong> The <em>Anatomy Info</em> panel.
+</div>
+
+<br /><br />
+
+<div align=left>
+The application has a list of shortcuts which are reported in the following table.
+</div>
+
+<br /><br />
+
+<div align=center>
+<strong>Table:</strong> Shortcuts of the ARAKNES Surgical Simulator.<br /><br />
+<table border="1">
+<tr><td align=center>View physics models</td><td align=center>1</td></tr>
+<tr><td align=center>View graphic models</td><td align=center>2</td></tr>
+<tr><td align=center>Fullscreen mode</td><td align=center>F</td></tr>
+<tr><td align=center>Window mode</td><td align=center>W</td></tr>
+<tr><td align=center>Insert the robot</td><td align=center>+</td></tr>
+<tr><td align=center>Extract the robot</td><td align=center>-</td></tr>
+<tr><td align=center>Rotating the robot clockwise</td><td align=center>X</td></tr>
+<tr><td align=center>Rotating the robot counterclockwise</td><td align=center>Z</td></tr>
+<tr><td align=center>Rotating the robot up</td><td align=center>UP</td></tr>
+<tr><td align=center>Rotating the robot down</td><td align=center>DOWN</td></tr>
+<tr><td align=center>Rotating the robot right</td><td align=center>RIGHT</td></tr>
+<tr><td align=center>Rotating the robot left</td><td align=center>LEFT</td></tr>
+<tr><td align=center>Activate the panoramic camera</td><td align=center>P</td></tr>
+<tr><td align=center>Activate the robot camera</td><td align=center>R</td></tr>
+<tr><td align=center>Activate the access port camera</td><td align=center>A</td></tr>
+</table>
+
+<br /><br />
+
+<div align=left>
+<a href="#index">Back to Index.</a>
+</div>
+
+<br /><br />
+
+<!-- SIGN AND PAGE DATE -->
+
+<address>The EndoCAS Research Center Staff.</address>
+
+</body>
+
+</html>
+
+

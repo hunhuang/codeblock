@@ -1,0 +1,11 @@
+﻿Build started 27-Nov-13 09:55:43.
+     1>Project "E:\lib\rtc3dclient\rtc3d_client_for_customers\src\rtC3D\test\test-server-client.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I../include /I../../include /Zi /nologo /W3 /WX- /Od /D _WINDOWS /D _DEBUG /D _AFXDLL /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Debug\test-server-client.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /FR"x64\Debug\\" /Gd /TP /errorReport:prompt src\stdafx.cpp
+         stdafx.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+     1>Done Building Project "E:\lib\rtc3dclient\rtc3d_client_for_customers\src\rtC3D\test\test-server-client.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.19

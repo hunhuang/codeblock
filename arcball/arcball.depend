@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1399088791 source:c:\users\loi.duc313\desktop\school\thunghi\arcball\main.cpp
+	<windows.h>
+	<glut.h>
+	<stdio.h>
+	"vector.h"
+
+976684972 f:\lib\glut\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1399088762 c:\users\loi.duc313\desktop\school\thunghi\arcball\vector.h
+	<math.h>
+	<stdio.h>
+
+1399088813 source:c:\users\loi.duc313\desktop\school\thunghi\arcball\vector.cpp
+	"Vector.h"
+

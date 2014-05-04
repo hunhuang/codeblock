@@ -1,0 +1,48 @@
+# depslib dependency file v1.0
+1398631300 source:c:\users\loi.duc313\desktop\school\thunghi\tap\main.c
+	<windows.h>
+	<glut.h>
+	<stdio.h>
+	"helper.h"
+
+976684972 f:\lib\glut\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1397882038 c:\users\loi.duc313\desktop\school\cs320\viewing\helper.h
+	<glut.h>
+
+1398723935 source:c:\users\loi.duc313\desktop\school\thunghi\tap\automate_texture_457.cpp
+	<windows.h>
+	<glut.h>
+	"helper1.h"
+
+1398740329 c:\users\loi.duc313\desktop\school\thunghi\tap\helper1.h
+	<stdio.h>
+	<fstream>
+	<windows.h>
+	<iostream>
+
+1398737274 source:c:\users\loi.duc313\desktop\school\thunghi\tap\stencil_buffer.c
+	<windows.h>
+	<glut.h>
+
+1398740570 source:c:\users\loi.duc313\desktop\school\thunghi\tap\another_automatic.cpp
+	<GL/gl.h>
+	<GL/glu.h>
+	<glut.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<math.h>
+	"helper1.h"
+
+1398927245 source:c:\users\loi.duc313\desktop\school\thunghi\tap\class.c
+	<windows.h>
+	<glut.h>
+
+1398990113 source:c:\users\loi.duc313\desktop\school\thunghi\tap\quadric.cpp
+	<windows.h>
+	<glut.h>
+

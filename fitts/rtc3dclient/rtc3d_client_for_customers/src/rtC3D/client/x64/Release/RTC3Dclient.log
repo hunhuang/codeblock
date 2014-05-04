@@ -1,0 +1,116 @@
+﻿Build started 22-Nov-13 16:06:33.
+     1>Project "C:\Users\turinig\Desktop\RTC3D client for customers\src\rtC3D\client\RTC3Dclient.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I../include /I../../include /Zi /nologo /W3 /WX- /O2 /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D RTC3DCLIENT_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /Zp4 /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt ..\src\C3Dframe.cpp src\freezetag.cpp src\RTC3Dclient.cpp ..\src\utils.cpp
+         C3Dframe.cpp
+     1>..\src\C3Dframe.cpp(291): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>..\src\C3Dframe.cpp(294): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>..\src\C3Dframe.cpp(295): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>..\src\C3Dframe.cpp(296): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>..\src\C3Dframe.cpp(370): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>..\src\C3Dframe.cpp(371): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>..\src\C3Dframe.cpp(372): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>..\src\C3Dframe.cpp(373): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>..\src\C3Dframe.cpp(374): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>..\src\C3Dframe.cpp(375): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>..\src\C3Dframe.cpp(376): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>..\src\C3Dframe.cpp(377): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>..\src\C3Dframe.cpp(450): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>..\src\C3Dframe.cpp(513): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>..\src\C3Dframe.cpp(514): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>..\src\C3Dframe.cpp(515): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>..\src\C3Dframe.cpp(516): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>..\src\C3Dframe.cpp(517): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>..\src\C3Dframe.cpp(518): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>..\src\C3Dframe.cpp(1650): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : see declaration of 'strncpy'
+     1>..\src\C3Dframe.cpp(1773): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+         freezetag.cpp
+         RTC3Dclient.cpp
+     1>src\RTC3Dclient.cpp(76): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>src\RTC3Dclient.cpp(85): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>src\RTC3Dclient.cpp(95): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>src\RTC3Dclient.cpp(103): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>src\RTC3Dclient.cpp(510): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>src\RTC3Dclient.cpp(1005): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>src\RTC3Dclient.cpp(1197): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>src\RTC3Dclient.cpp(1203): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>src\RTC3Dclient.cpp(1207): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>src\RTC3Dclient.cpp(1212): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>src\RTC3Dclient.cpp(1216): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>src\RTC3Dclient.cpp(1218): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>src\RTC3Dclient.cpp(1220): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>src\RTC3Dclient.cpp(1222): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>src\RTC3Dclient.cpp(1224): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>src\RTC3Dclient.cpp(1246): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>src\RTC3Dclient.cpp(1252): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>src\RTC3Dclient.cpp(1256): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>src\RTC3Dclient.cpp(1261): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>src\RTC3Dclient.cpp(1264): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>src\RTC3Dclient.cpp(1288): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>src\RTC3Dclient.cpp(1291): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>src\RTC3Dclient.cpp(1293): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>src\RTC3Dclient.cpp(1295): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>src\RTC3Dclient.cpp(1297): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>src\RTC3Dclient.cpp(1299): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>src\RTC3Dclient.cpp(1341): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>src\RTC3Dclient.cpp(1344): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>src\RTC3Dclient.cpp(1346): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>src\RTC3Dclient.cpp(1348): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>src\RTC3Dclient.cpp(1350): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>src\RTC3Dclient.cpp(1352): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+         utils.cpp
+         Generating Code...
+     1>c:\users\turinig\desktop\rtc3d client for customers\src\rtc3d\src\c3dframe.cpp(591): warning C4700: uninitialized local variable 'Item' used
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\turinig\Desktop\RTC3D client for customers\src\rtC3D\test\x64\Release\RTC3Dclient.dll" /INCREMENTAL:NO /NOLOGO Ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\turinig\Desktop\RTC3D client for customers\src\rtC3D\test\x64\Release\RTC3Dclient.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\turinig\Desktop\RTC3D client for customers\src\rtC3D\test\x64\Release\RTC3Dclient.lib" /MACHINE:X64 /DLL x64\Release\C3Dframe.obj
+         x64\Release\freezetag.obj
+         x64\Release\RTC3Dclient.obj
+         x64\Release\utils.obj
+            Creating library C:\Users\turinig\Desktop\RTC3D client for customers\src\rtC3D\test\x64\Release\RTC3Dclient.lib and object C:\Users\turinig\Desktop\RTC3D client for customers\src\rtC3D\test\x64\Release\RTC3Dclient.exp
+         RTC3Dclient.vcxproj -> C:\Users\turinig\Desktop\RTC3D client for customers\src\rtC3D\test\x64\Release\RTC3Dclient.dll
+       PostBuildEvent:
+         postbuild Release
+         :VCEnd
+         The system cannot find the path specified.
+         The system cannot find the path specified.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: The command "postbuild Release
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: :VCEnd" exited with code 1.
+     1>Done Building Project "C:\Users\turinig\Desktop\RTC3D client for customers\src\rtC3D\client\RTC3Dclient.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.31

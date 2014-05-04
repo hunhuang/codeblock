@@ -1,0 +1,25 @@
+The package contains source code and
+Visual Studio 7 project files for the following modules:
+
+test-server-client.exe  - test application connecting to the RTC3D server
+c3dclient.dll   	- RTC3D protocol client DLL
+
+
+Open
+rtC3D\test\test-server-client.sln - solution file for VisualStudio C++ 7
+and build.
+
+The result of the product is copied to rtC3D\bin
+
+-------------------------------------------------------------------
+
+
+Real Time C3D client containing the same version of the protocol as found in First Principles. This client comes with the source code.
+This client comes as is. Feel free to use it to speed up your plugin development. This client does't contain XML parser.
+
+Programmers Note: 
+The dll is build with the  Multithreaded DLL compiler option. If your application is using a different setting you may
+run into run-time errors caused by different memory heaps. You will run into problems if you let the client to allocate memory 
+( add 3d or tool items ) in the GetLatest3d( vector<Position3d> & vLatest3d ) member function and try to deallocate 
+it in your application using a different heap. The workaround is to make sure the vLatest3d vector contains enough items. You are free to use
+client sample code and use it in your plugin.

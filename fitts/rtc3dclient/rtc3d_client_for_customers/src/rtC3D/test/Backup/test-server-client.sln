@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test-server-client", "test-server-client.vcproj", "{7D1C2988-DBEE-4B28-8514-2F8935186C04}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9B6B134B-13B4-41E6-B89D-B7DC1BF1D151} = {9B6B134B-13B4-41E6-B89D-B7DC1BF1D151}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RTC3Dclient", "..\client\RTC3Dclient.vcproj", "{9B6B134B-13B4-41E6-B89D-B7DC1BF1D151}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{7D1C2988-DBEE-4B28-8514-2F8935186C04}.Debug.ActiveCfg = Debug|Win32
+		{7D1C2988-DBEE-4B28-8514-2F8935186C04}.Debug.Build.0 = Debug|Win32
+		{7D1C2988-DBEE-4B28-8514-2F8935186C04}.Release.ActiveCfg = Release|Win32
+		{7D1C2988-DBEE-4B28-8514-2F8935186C04}.Release.Build.0 = Release|Win32
+		{9B6B134B-13B4-41E6-B89D-B7DC1BF1D151}.Debug.ActiveCfg = Debug|Win32
+		{9B6B134B-13B4-41E6-B89D-B7DC1BF1D151}.Debug.Build.0 = Debug|Win32
+		{9B6B134B-13B4-41E6-B89D-B7DC1BF1D151}.Release.ActiveCfg = Release|Win32
+		{9B6B134B-13B4-41E6-B89D-B7DC1BF1D151}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

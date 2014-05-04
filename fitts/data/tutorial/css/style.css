@@ -1,0 +1,32 @@
+
+
+
+body {
+	padding-left: 1cm;
+	margin-left: 2cm;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: large;
+	color: #000000;
+	background-color: #ffffff }
+p.menu {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 150px }
+p.menu a {
+	color: #990000;
+	text-decoration: none }
+h1 {
+	font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif }
+a:link {
+	text-decoration:none;
+	color: blue }
+a:visited {
+	color: purple }
+address {
+	margin-top: 1em;
+	padding-top: 1em;
+	border-top: thin dotted }
